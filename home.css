@@ -1,0 +1,127 @@
+body{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.parent_div{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(36, 6, 6);
+  color: white;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.parent_div a{
+  text-decoration: none;
+  color: white;
+  margin-bottom: 300px;
+  gap: 3px;
+}
+
+.parent_div a:hover{
+  color: rgb(90, 44, 44);
+}
+
+.parent_div button{
+  background-color: rgb(90, 29, 29);
+  color: white;
+  border: none ;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.parent_div header{
+  padding-top: 20px;
+  padding-right: 10px;
+
+}
+
+.parent_position img{
+  width: 40%;
+  height: auto;
+  border-radius: 25px;
+  margin-left: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.family{
+  position: relative;
+  top: 200px;
+}
+
+.friends{
+  margin-top: 20px;
+}
+
+#about{
+  text-align: center;
+  margin-top: 200px;
+}
+
+.services-container{
+  display: flex;
+  gap: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.services-container section{
+  border: 2px solid brown;
+  width: 30%;
+  text-align: center;
+  margin-left: 25px;
+
+}
+
+.services-container section li{
+  list-style: none;
+}
+
+#services{
+   border:3px solid rgb(39, 1, 1) ;
+  color:black;
+  border-radius: 5px;
+}
+
+
+#why-choose-us{
+  border:3px solid rgb(39, 1, 1) ;
+  color:black
+}
+
+.services-container section{
+  border-radius: 5px;
+}
+
+#testimonials{
+  border:3px solid rgb(39, 1, 1) ;
+  color:black;
+  border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(36, 4, 4);
+    padding: 10px;
+    color: white;
+}
+
+#why-choose-us h2{
+  color: rgb(39, 1, 1);
+}
+
+#testimonials h2{
+  color: rgb(39, 1, 1);
+}
+
+#services h2{
+  color: rgb(39, 1, 1);
+}
+

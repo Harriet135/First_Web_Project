@@ -1,0 +1,104 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.parent_div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(36, 6, 6);
+    color: white;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+.parent_div a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 300px;
+    gap: 3px;
+}
+
+.parent_div a:hover{
+    color: rgb(90, 44, 44);
+}
+
+.parent_div button{
+    background-color: rgb(90, 29, 29);
+    color: white;
+    border: none ;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.parent_div header{
+    padding-top: 20px;
+    padding-right: 10px;
+
+}
+
+.picture_div div img{
+    width: 100%;
+    height: auto;
+}
+
+.main_div{
+    display: flex;
+    gap: 5px;
+    text-align: 5px;
+    justify-content: center;
+
+}
+
+.main_div div{
+    border: 2px solid rgb(65, 5, 5);
+    padding-left: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+.main_div button{
+    background-color: rgb(36, 3, 3);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.original_div{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.original_div button{
+    background-color: rgb(37, 3, 3);
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: none;
+}
+
+.original_div div{
+    border: 2px solid rgb(34, 1, 1);
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(36, 4, 4);
+    padding: 10px;
+    color: white;
+}

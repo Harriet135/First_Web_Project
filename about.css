@@ -1,0 +1,83 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .parent_div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(36, 6, 6);
+    color: white;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+  }
+
+  .parent_div a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 300px;
+    gap: 3px;
+  }
+  
+  .parent_div a:hover{
+    color: rgb(90, 44, 44);
+  }
+
+  .parent_div button{
+    background-color: rgb(90, 29, 29);
+    color: white;
+    border: none ;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  
+  .parent_div header{
+    padding-top: 20px;
+    padding-right: 10px;
+  
+  }
+  
+  .about_div h2{
+    text-align: center;
+  }
+
+  .about_div p{
+    text-align: center;
+  }
+  
+  img{
+    margin-left: 40%;
+    border-radius: 5px;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  .skill_div{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+  }
+
+  .skill_div div{
+    border: 3px solid rgb(37, 1, 1);
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  footer{
+    text-align: center;
+    background-color: rgb(36, 4, 4);
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+  }
+
+    
+  
