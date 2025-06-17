@@ -35,21 +35,16 @@ body{
   }
   
   .parent_div header{
-    padding-top: 20px;
+    padding-top: 17px;
     padding-right: 10px;
   
   }
   
-  .about_div h2{
-    text-align: center;
-  }
-
-  .about_div p{
-    text-align: center;
-  }
+ .about_div{
+  text-align: center;
+ }
   
-  img{
-    margin-left: 40%;
+  .about_div img{
     border-radius: 5px;
   }
 
@@ -69,6 +64,30 @@ body{
     width: 30%;
     padding: 10px;
     text-align: center;
+  }
+
+  @media screen and (max-width: 600px) {
+    body{
+      overflow-x:hidden  !important;
+      font-size: small;
+    }
+
+    .skill_div{
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      align-items: center;
+      box-sizing: border-box;
+    }
+
+    .skill_div div{
+      flex-grow: 4;
+      min-width: 80%;
+    }
+
+    .parent_div header{
+      padding: 10px;
+    }
   }
 
   footer{
