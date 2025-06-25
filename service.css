@@ -43,6 +43,8 @@ body{
 .picture_div div img{
     width: 100%;
     height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .main_div{
@@ -94,6 +96,36 @@ body{
     margin-right: 5px;
     padding-left: 5px;
     width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .main_div{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+
+    .main_div div{
+        flex-grow: 3;
+        min-width: 70%;
+    }
+
+    .original_div{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        box-sizing: border-box;
+        padding: 5px;
+        align-items: center;
+    }
+
+    .original_div div{
+        flex-grow: 4;
+        min-width: 90%;
+    }
 }
 
 footer{

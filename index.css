@@ -41,11 +41,17 @@ body{
 
 }
 
+.parent_position{
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+  gap: 10px;
+}
+
 .parent_position img{
   width: 40%;
   height: auto;
   border-radius: 25px;
-  margin-left: 10px;
   margin-bottom: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -90,7 +96,7 @@ body{
   .parent_div header{
     padding: 10px;
   }
-  
+
 }
 
 .services-container{
